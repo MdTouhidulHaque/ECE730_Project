@@ -1,0 +1,10 @@
+!HV Step Up Transformer Definitions (4.16kV to 25kV)
+
+new transformer.HVTr_1 phases=3 windings=2 buses=[sourcebus, 1] conns=[wye, delta] kVs=[4.16, 25] kVAs=[5000, 5000] %loadloss=0.001 %noloadloss=0.001 Xhl=0.001 Xht=35 Xlt=30 wdg=1 NumTaps=17 tap=[1] MaxTap=1.0715 MinTap=0.8284 enabled=true
+new transformer.HVTr_2 phases=3 windings=2 buses=[sourcebus, 11] conns=[wye, delta] kVs=[4.16, 25] kVAs=[5000, 5000] %loadloss=0.001 %noloadloss=0.001 Xhl=0.001 Xht=35 Xlt=30 wdg=1 NumTaps=17 tap=[1] MaxTap=1.0715 MinTap=0.8284 enabled=true
+
+!HV Step Down Transformer Definitions (25kV to 2.4kV)
+new transformer.HVTr_3 phases=3 windings=2 buses=[10, 18] conns=[delta, wye] kVs=[25, 2.4] kVAs=[2000, 2000] %loadloss=0.001 %noloadloss=0.001 Xhl=0.001 Xht=35 Xlt=30 wdg=1 NumTaps=17 tap=[1] MaxTap=1.0715 MinTap=0.8284 enabled=true
+
+!HV Step Up Transformer Definitions (480V to 25kV)
+new transformer.HVTr_4 phases=3 windings=2 buses=[85, 3N_PV_bus] conns=[delta, wye] kVs=[25, .480] kVAs=[3000, 3000] %loadloss=0.001 %noloadloss=0.001 Xhl=0.001 Xht=35 Xlt=30 wdg=1 NumTaps=17 tap=[1] MaxTap=1.0715 MinTap=0.8284 enabled=true

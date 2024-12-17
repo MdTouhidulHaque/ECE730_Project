@@ -1,0 +1,3 @@
+!2.8MW PV System connected at HV Bus 85
+
+new PVSystem.3N_PV phase=3 irradiance=1 %cutin=0.05 %cutout=0.05 vmaxpu=1.05 vminpu=0.95 kva=2800 pmpp = 2800 bus1=3N_PV_bus pf=1 kv= .480 enabled=true VarFollowInverter=False !status=variable !daily=PV_profile

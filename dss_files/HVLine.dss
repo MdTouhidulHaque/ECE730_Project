@@ -1,0 +1,97 @@
+! 25kV HV Line definitions
+New line.HV_1-2 Bus1=1.1.2.3 Bus2=2.1.2.3 phases=3 length=0.2 units=km linecode=lc_0_3ph
+New line.HV_1-3 Bus1=1.1.2.3 Bus2=3.1.2.3 phases=3 length=0.5 units=km linecode=lc_0_3ph
+New line.HV_6-7 Bus1=6.1.2.3 Bus2=7.1.2.3 phases=3 length=0.05 units=km linecode=lc_0_3ph
+New line.HV_7-8 Bus1=7.1.2.3 Bus2=8.1.2.3 phases=3 length=0.1 units=km linecode=lc_0_3ph
+New line.HV_8-9 Bus1=8.1.2.3 Bus2=9.1.2.3 phases=3 length=0.05 units=km linecode=lc_0_3ph
+New line.HV_11-12 Bus1=11.1.2.3 Bus2=12.1.2.3 phases=3 length=0.5 units=km linecode=lc_0_3ph
+New line.HV_12-13 Bus1=12.1.2.3 Bus2=13.1.2.3 phases=3 length=0.2 units=km linecode=lc_0_3ph
+New line.HV_14-15 Bus1=14.1.2.3 Bus2=15.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_6-16 Bus1=6.1.2.3 Bus2=16.1.2.3 phases=3 length=0.5 units=km linecode=lc_0_3ph
+New line.HV_12-17 Bus1=12.1.2.3 Bus2=17.1.2.3 phases=3 length=0.5 units=km linecode=lc_0_3ph
+New line.HV_1-11 Bus1=1.1.2.3 Bus2=11.1.2.3 phases=3 length=0.2 units=km linecode=lc_0_3ph
+
+! 2.4kV HV Line definitions
+New line.HV_19-20 Bus1=19.1.2.3 Bus2=20.1.2.3 phases=3 length=0.5 units=km linecode=lc_1_3ph
+New line.HV_19-21 Bus1=19.1.2.3 Bus2=21.1.2.3 phases=3 length=0.5 units=km linecode=lc_1_3ph
+
+! 25kV HV Line definations (Transformer line segments started at 51)
+New line.HV_2-51 Bus1=2.1.2.3 Bus2=51.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_51-52 Bus1=51.1.2.3 Bus2=52.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_52-53 Bus1=52.1.2.3 Bus2=53.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_53-54 Bus1=53.1.2.3 Bus2=54.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_3-55 Bus1=3.1.2.3 Bus2=55.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_55-56 Bus1=55.1.2.3 Bus2=56.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_56-57 Bus1=56.1.2.3 Bus2=57.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_4-57 Bus1=4.1.2.3 Bus2=57.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_4-58 Bus1=4.1.2.3 Bus2=58.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_5-58 Bus1=5.1.2.3 Bus2=58.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_8-59 Bus1=8.1.2.3 Bus2=59.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_59-60 Bus1=59.1.2.3 Bus2=60.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_60-61 Bus1=60.1.2.3 Bus2=61.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_61-62 Bus1=61.1.2.3 Bus2=62.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_62-63 Bus1=62.1.2.3 Bus2=63.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_63-64 Bus1=63.1.2.3 Bus2=64.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_64-65 Bus1=64.1.2.3 Bus2=65.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_65-66 Bus1=65.1.2.3 Bus2=66.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_9-67 Bus1=9.1.2.3 Bus2=67.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_67-68 Bus1=67.1.2.3 Bus2=68.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_9-69 Bus1=9.1.2.3 Bus2=69.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_69-70 Bus1=69.1.2.3 Bus2=70.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_70-71 Bus1=70.1.2.3 Bus2=71.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_71-72 Bus1=71.1.2.3 Bus2=72.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_72-73 Bus1=72.1.2.3 Bus2=73.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_10-73 Bus1=10.1.2.3 Bus2=73.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_12-74 Bus1=12.1.2.3 Bus2=74.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_74-75 Bus1=74.1.2.3 Bus2=75.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_17-75 Bus1=17.1.2.3 Bus2=75.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_17-76 Bus1=17.1.2.3 Bus2=76.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_76-77 Bus1=76.1.2.3 Bus2=77.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_77-78 Bus1=77.1.2.3 Bus2=78.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_78-79 Bus1=78.1.2.3 Bus2=79.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_79-80 Bus1=79.1.2.3 Bus2=80.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_13-81 Bus1=13.1.2.3 Bus2=81.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_81-82 Bus1=81.1.2.3 Bus2=82.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_82-83 Bus1=82.1.2.3 Bus2=83.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_14-83 Bus1=14.1.2.3 Bus2=83.1.2.3 phases=3 length=0.01 units=km linecode=lc_0_3ph
+New line.HV_14-84 Bus1=14.1.2.3 Bus2=84.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_84-85 Bus1=84.1.2.3 Bus2=85.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_15-86 Bus1=15.1.2.3 Bus2=86.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_16-86 Bus1=16.1.2.3 Bus2=86.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+New line.HV_16-87 Bus1=16.1.2.3 Bus2=87.1.2.3 phases=3 length=0.02 units=km linecode=lc_0_3ph
+
+! 2.4kV HV Line definations (Transformer line segments started at 88)
+New line.HV_18-88 Bus1=18.1.2.3 Bus2=88.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_88-89 Bus1=88.1.2.3 Bus2=89.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_19-89 Bus1=19.1.2.3 Bus2=89.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_20-90 Bus1=20.1.2.3 Bus2=90.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_90-91 Bus1=90.1.2.3 Bus2=91.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_91-92 Bus1=91.1.2.3 Bus2=92.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_92-93 Bus1=92.1.2.3 Bus2=93.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_93-94 Bus1=93.1.2.3 Bus2=94.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_94-95 Bus1=94.1.2.3 Bus2=95.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_95-96 Bus1=95.1.2.3 Bus2=96.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_96-97 Bus1=96.1.2.3 Bus2=97.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_97-98 Bus1=97.1.2.3 Bus2=98.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_98-99 Bus1=98.1.2.3 Bus2=99.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_99-100 Bus1=99.1.2.3 Bus2=100.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_100-101 Bus1=100.1.2.3 Bus2=101.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_101-102 Bus1=101.1.2.3 Bus2=102.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_20-103 Bus1=20.1.2.3 Bus2=103.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_103-104 Bus1=103.1.2.3 Bus2=104.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_104-105 Bus1=104.1.2.3 Bus2=105.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_105-106 Bus1=105.1.2.3 Bus2=106.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph ! Check
+New line.HV_106-107 Bus1=106.1.2.3 Bus2=107.1.2.3 phases=3 length=0.005 units=km linecode=lc_1_3ph ! Check
+New line.HV_107-108 Bus1=107.1.2.3 Bus2=108.1.2.3 phases=3 length=0.005 units=km linecode=lc_1_3ph ! Check
+New line.HV_21-109 Bus1=21.1.2.3 Bus2=109.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_109-110 Bus1=109.1.2.3 Bus2=110.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_110-111 Bus1=110.1.2.3 Bus2=111.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_111-112 Bus1=111.1.2.3 Bus2=112.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_112-113 Bus1=112.1.2.3 Bus2=113.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_113-114 Bus1=113.1.2.3 Bus2=114.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_114-115 Bus1=114.1.2.3 Bus2=115.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_115-116 Bus1=115.1.2.3 Bus2=116.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_116-117 Bus1=116.1.2.3 Bus2=117.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph
+New line.HV_117-118 Bus1=117.1.2.3 Bus2=118.1.2.3 phases=3 length=0.02 units=km linecode=lc_1_3ph ! check
+New line.HV_118-119 Bus1=118.1.2.3 Bus2=119.1.2.3 phases=3 length=0.005 units=km linecode=lc_1_3ph ! check
+

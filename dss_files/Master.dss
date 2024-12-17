@@ -1,0 +1,16 @@
+Clear
+Set DefaultBaseFrequency=60
+New circuit.FortChip basekv=4.16 pu=1.0001 phases=3 angle=0 MVAsc3=2000 MVAsc1=2100 enabled=true
+Reset
+
+Redirect source.dss
+Redirect linecode.dss
+Redirect HVLine.dss
+Redirect HVTransformer.dss
+Redirect LVTransformer.dss
+Redirect LVLine.dss
+Redirect loadshape.dss
+Redirect load.dss
+Redirect PVsystem.dss
+Redirect StorageSystem.dss
+

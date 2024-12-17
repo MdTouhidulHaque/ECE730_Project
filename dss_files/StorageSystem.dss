@@ -1,0 +1,29 @@
+// Define a new energy storage element
+New Storage.FortChipStorage
+~ bus1=sourcebus  // Define the bus to which the storage is connected
+~ kW=1500          // Power rating in kW
+~ kWh=1500         // Energy capacity in kWh (1.5 MWh)
+~ %reserve=20      // Reserve percentage
+~ %stored=100      // Initial stored percentage
+~ state=IDLING     // Initial state of the storage (IDLING, CHARGING, DISCHARGING)
+~ enabled=true     // Enable the storage element
+
+// Set the control mode for the storage
+!~ mode=PeakShave   // Control mode (PEAKSHAVE, FOLLOW, LOADLEVELING, etc.)
+~ dispmode=LOADLEVEL     // Dispatch mode (PPV, EXTERNAL, etc.)
+
+// Additional storage settings
+~ kv=4.16         // Nominal voltage in kV
+~ kvarMax=500      // Maximum reactive power output in kVAR
+~ kvarMaxAbs=500   // Maximum reactive power absorption in kVAR
+!~ pctChargeEff=95  // Charging efficiency percentage
+!~ pctDischargeEff=95  // Discharging efficiency percentage
+!~ pctIdleLoss=0.5  // Idle loss percentage per hour
+!~ pctCharge=0      // Initial charge percentage
+!~ pctDischarge=0   // Initial discharge percentage
+!~ annualCost=100   // Annual cost in user-defined units
+
+// Finalize storage properties
+~ phases=3         // Number of phases
+~ kWrated=1500     // Rated power in kW
+~ kWhrated=1500    // Rated energy in kWh
