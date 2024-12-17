@@ -22,8 +22,8 @@ The experiments are conducted using Monte Carlo simulations and Quasi-static tim
 
 ### Source Code
 To run the simulations:
-- Execute **`main_MC_simulation_EV_fixed.py`** for EV hosting capacity estimation.
-- Execute **`main_MC_simulation_PV_fixed.py`** for PV hosting capacity estimation.
+- Execute **`main_MC_simulation_EV_fixed.py`** for PV hosting capacity estimation at a fixed EV penetration level.
+- Execute **`main_MC_simulation_PV_fixed.py`** for EV hosting capacity estimation at a fixed PV penetration level.
 
 ### Results
 - Simulation results are stored in the **`results`** folder.
